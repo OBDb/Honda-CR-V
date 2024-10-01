@@ -1,2 +1,7 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "DA10", "cmd": {"22": "2660"}, "freq": 5,
+  "signals": [
+    {"id": "CRV_ODO", "path": "Trips", "fmt": { "bix": 344, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]}
+]
 }
