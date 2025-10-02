@@ -8,3 +8,15 @@ test_cases:
     18DAF10104411F0018
     18DAF10204411F0018
     18DAF10604411F0018
+- expected_values:
+    RUNTM: 55
+  response: 18DAF10704411F0037
+- expected_values:
+    RUNTM: 512
+  response: 18DAF10704411F0200
+- expected_values:
+    RUNTM: 756
+  response: 18DAF10704411F02F4
+- expected_values:
+    RUNTM: 787
+  response: 18DAF10704411F0313
