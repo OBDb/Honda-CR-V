@@ -1,7 +1,8 @@
-model_year: 2009
+model_year: 2016
 supported_commands_by_ecu:
   "DB33":
   - DB33.010D:VSS
+  - DB33.011C:OBDSUP
   - DB33.012F:FLI
   - DB33.0131:CLR_DIST
 unsupported_commands_by_ecu:
