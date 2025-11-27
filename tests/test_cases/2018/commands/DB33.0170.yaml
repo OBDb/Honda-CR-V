@@ -1,0 +1,32 @@
+command_id: DB33.0170
+test_cases:
+- expected_values:
+    BP_A: BP_A_OL
+    BP_A_ACT: 94.8125
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 95.53125
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070BF10B
+    18DAF11021DA000000000155
+- expected_values:
+    BP_A: BP_A_OL
+    BP_A_ACT: 95.1875
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 95.53125
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070BF10B
+    18DAF11021E6000000000155

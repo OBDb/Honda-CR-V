@@ -1,0 +1,19 @@
+command_id: DB33.010C
+test_cases:
+- expected_values:
+    RPM: 967
+  response: 18DAF11004410C0F1C
+- expected_values:
+    RPM: 973
+  response: 18DAF11004410C0F34
+- expected_values:
+    RPM: 977
+  response: 18DAF11004410C0F44
+- expected_values:
+    RPM: 1064
+  response: |-
+    18DAF11004410C1090
+    18DAF11E04410C10A0
+- expected_values:
+    RPM: 1172
+  response: 18DAF11E04410C1250
