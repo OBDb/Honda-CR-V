@@ -1,0 +1,10 @@
+command_id: DB33.0133
+test_cases:
+- expected_values:
+    BARO: 95
+  response: 18DAF1100341335F
+- expected_values:
+    BARO: 95
+  response: |-
+    18DAF1100341335F
+    18DAF11E0341335F
