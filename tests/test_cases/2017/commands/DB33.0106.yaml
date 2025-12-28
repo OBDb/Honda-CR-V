@@ -4,29 +4,11 @@ test_cases:
     SHRTFT1: -8.59375
   response: 18DAF1100341067555555555
 - expected_values:
-    SHRTFT1: -7.8125
-  response: 18DAF1100341067655555555
-- expected_values:
-    SHRTFT1: -7.03125
-  response: 18DAF1100341067755555555
-- expected_values:
-    SHRTFT1: -3.90625
-  response: 18DAF1100341067B55555555
-- expected_values:
     SHRTFT1: -3.125
-  response: 18DAF1100341067C55555555
+  response: 18DAF1100341067C
 - expected_values:
-    SHRTFT1: -2.34375
-  response: 18DAF1100341067D55555555
-- expected_values:
-    SHRTFT1: -0.78125
-  response: 18DAF1100341067F55555555
-- expected_values:
-    SHRTFT1: 0
-  response: 18DAF1100341068055555555
-- expected_values:
-    SHRTFT1: 1.5625
-  response: 18DAF1100341068255555555
+    SHRTFT1: 0.78125
+  response: 18DAF11003410681
 - expected_values:
     SHRTFT1: 2.34375
   response: 18DAF1100341068355555555
