@@ -8,7 +8,7 @@ test_cases:
 - expected_values:
     LOAD_PCT: 100
   response: |-
-    18DAF111034104EE
+    18DAF111034104AE
     18DAF11D034104FF
 - expected_values:
     LOAD_PCT: 100
