@@ -1,0 +1,22 @@
+command_id: DB33.0134
+test_cases:
+- expected_values:
+    LAMBDA11_CURRENT: 0.83908
+    O2S11_CURRENT: 0.42969
+  response: 18DAF1110641346B67806E
+- expected_values:
+    LAMBDA11_CURRENT: 0.99023
+    O2S11_CURRENT: 0
+  response: 18DAF1110641347EC08000
+- expected_values:
+    LAMBDA11_CURRENT: 0.99194
+    O2S11_CURRENT: -0.00391
+  response: 18DAF1110641347EF87FFF
+- expected_values:
+    LAMBDA11_CURRENT: 1.03918
+    O2S11_CURRENT: -0.05469
+  response: 18DAF11106413485047FF2
+- expected_values:
+    LAMBDA11_CURRENT: 1.99
+    O2S11_CURRENT: -1.63672
+  response: 18DAF111064134FFFF7E5D
