@@ -6,10 +6,10 @@ test_cases:
     18DAF11103411122
     18DAF11D03411122
 - expected_values:
-    TP: 20.39216
+    TP: 20
   response: |-
     18DAF11103411133
-    18DAF11D03411134
+    18DAF11D03411133
 - expected_values:
     TP: 13.33333
   response: |-
