@@ -4,8 +4,5 @@ test_cases:
     APP_E: 9.41176
   response: 18DAF10E03414A18
 - expected_values:
-    APP_E: 16.07843
-  response: 18DAF10E03414A29
-- expected_values:
-    APP_E: 18.43137
-  response: 18DAF10E03414A2F
+    APP_E: 22.35294
+  response: 18DAF10E03414A39
