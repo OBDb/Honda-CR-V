@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TAC_PCT: 2.35294
   response: 18DAF11103414C06
+- expected_values:
+    TAC_PCT: 2.7451
+  response: 18DAF11103414C07
+- expected_values:
+    TAC_PCT: 3.13725
+  response: 18DAF11103414C08
