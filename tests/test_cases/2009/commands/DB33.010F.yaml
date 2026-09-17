@@ -10,3 +10,18 @@ test_cases:
   response: |-
     18DAF11103410F41
     18DAF11D03410F41
+- expected_values:
+    IAT: 46
+  response: |-
+    18DAF11103410F56
+    18DAF11D03410F56
+- expected_values:
+    IAT: 50
+  response: |-
+    18DAF11103410F5A
+    18DAF11D03410F5A
+- expected_values:
+    IAT: 51
+  response: |-
+    18DAF11103410F5B
+    18DAF11D03410F5B
