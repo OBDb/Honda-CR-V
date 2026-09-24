@@ -1,4 +1,4 @@
 model_year: 2027
 supported_commands_by_ecu:
   "DA10":
-  - DA10.222660:CRV_ODO,CRV_RUNTM
+  - DA10.10.222660:CRV_ODO,CRV_RUNTM
