@@ -110,4 +110,4 @@ supported_commands_by_ecu:
   - DB33.0151:FUEL_TYP
 unsupported_commands_by_ecu:
   "DA10":
-  - DA10.222660:CRV_ODO,CRV_RUNTM
+  - DA10.10.222660:CRV_ODO,CRV_RUNTM

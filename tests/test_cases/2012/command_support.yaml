@@ -70,7 +70,7 @@ supported_commands_by_ecu:
   - DB33.014C:TAC_PCT
 unsupported_commands_by_ecu:
   "DA10":
-  - DA10.222660:CRV_ODO,CRV_RUNTM
+  - DA10.10.222660:CRV_ODO,CRV_RUNTM
   "DB33":
   - DB33.0103:FUELSYS1,FUELSYS2
   - DB33.011C:OBDSUP

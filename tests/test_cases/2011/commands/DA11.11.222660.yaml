@@ -1,8 +1,7 @@
-command_id: DA10.222660
+command_id: DA11.11.222660
 test_cases:
 - expected_values:
-    CRV_ODO: 291923
-    CRV_RUNTM: 2358
+    CRV_RUNTM_V2: 2358
   response: |-
     18DAF1111039622660801FFF
     18DAF11121F0F7F000000000
