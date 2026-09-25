@@ -47,7 +47,7 @@
     {"id": "CRV_MIS_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3"},
     {"id": "CRV_MIS_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2666"}, "freq": 1,
+{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
   "signals": [
     {"id": "CRV_EOT_VAR_3", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "CRV_EOT_VAR_4", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
@@ -84,7 +84,7 @@
     {"id": "CRV_MISFIRE_COUNT_5_VAR_2", "path": "Engine", "fmt": {"bix": 336, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #5, variant 2"},
     {"id": "CRV_MISFIRE_COUNT_6_VAR_2", "path": "Engine", "fmt": {"bix": 352, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #6, variant 2"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2666"}, "freq": 1,
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
   "signals": [
     {"id": "CRV_EOT_VAR_1", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 1"},
     {"id": "CRV_EOT_VAR_2", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 2"}
@@ -98,7 +98,7 @@
     {"id": "CRV_MISFIRE_COUNT_5_VAR_1", "path": "Engine", "fmt": {"bix": 80, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #5, variant 1"},
     {"id": "CRV_MISFIRE_COUNT_6_VAR_1", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #6, variant 1"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2201"}, "freq": 1,
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
   "signals": [
     {"id": "CRV_ATF_T", "path": "Transmission", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
@@ -110,11 +110,11 @@
   "signals": [
     {"id": "CRV_GEAR_1D", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2660"}, "freq": 5,
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2660"}, "freq": 30,
   "signals": [
     {"id": "CRV_ODO_V2", "path": "Trips", "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "2201"}, "freq": 1,
+{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
   "signals": [
     {"id": "CRV_ATF_T_VAR_4", "path": "Engine", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 4", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -140,7 +140,7 @@
         }}
     }
   ]},
-{ "hdr": "DA26", "rax": "26", "dbg": true, "cmd": {"22": "6001"}, "freq": 5,
+{ "hdr": "DA26", "rax": "26", "dbg": true, "cmd": {"22": "6001"}, "freq": 15,
   "signals": [
     {"id": "CRV_TP_FR", "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 65535,                            "unit": "kilopascal" }, "name": "Front right tire pressure",    "suggestedMetric": "frontRightTirePressure"},
     {"id": "CRV_TP_FL", "path": "Tires", "fmt": {"bix": 80,  "len": 16, "max": 65535,                            "unit": "kilopascal" }, "name": "Front left tire pressure",     "suggestedMetric": "frontLeftTirePressure"},
@@ -166,7 +166,7 @@
     {"id": "CRV_MSTR_CYL_STK", "path": "Electrical", "fmt": {"bix": 232, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Master cylinder stroke"},
     {"id": "CRV_SLV_CYL_STK",  "path": "Electrical", "fmt": {"bix": 248, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Slave cylinder stroke"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 1, "dbgfilter": { "to": 2023, "years": [2025, 2026], "from": 2028 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2023, "years": [2025, 2026], "from": 2028 },
   "signals": [
     {"id": "CRV_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
@@ -174,7 +174,7 @@
   "signals": [
     {"id": "CRV_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 5, "dbgfilter": { "to": 2023, "years": [2025, 2026], "from": 2028 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 30, "dbgfilter": { "to": 2023, "years": [2025, 2026], "from": 2028 },
   "signals": [
     {"id": "CRV_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
