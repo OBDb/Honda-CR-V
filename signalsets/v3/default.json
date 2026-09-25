@@ -146,10 +146,10 @@
     {"id": "CRV_TP_FL", "path": "Tires", "fmt": {"bix": 80,  "len": 16, "max": 65535,                            "unit": "kilopascal" }, "name": "Front left tire pressure",     "suggestedMetric": "frontLeftTirePressure"},
     {"id": "CRV_TP_RR", "path": "Tires", "fmt": {"bix": 96,  "len": 16, "max": 65535,                            "unit": "kilopascal" }, "name": "Rear right tire pressure",     "suggestedMetric": "rearRightTirePressure"},
     {"id": "CRV_TP_RL", "path": "Tires", "fmt": {"bix": 112, "len": 16, "max": 65535,                            "unit": "kilopascal" }, "name": "Rear left tire pressure",      "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "CRV_TT_FR", "path": "Tires", "fmt": {"bix": 192, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Front right tire temperature"},
-    {"id": "CRV_TT_FL", "path": "Tires", "fmt": {"bix": 200, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Front left tire temperature"},
-    {"id": "CRV_TT_RR", "path": "Tires", "fmt": {"bix": 208, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Rear right tire temperature"},
-    {"id": "CRV_TT_RL", "path": "Tires", "fmt": {"bix": 216, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Rear left tire temperature"}
+    {"id": "CRV_TT_FR", "path": "Tires", "fmt": {"bix": 192, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "CRV_TT_FL", "path": "Tires", "fmt": {"bix": 200, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "CRV_TT_RR", "path": "Tires", "fmt": {"bix": 208, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "CRV_TT_RL", "path": "Tires", "fmt": {"bix": 216, "len": 8,  "max": 127,   "min": -128, "sign": true, "unit": "celsius"    }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"}
   ]},
 { "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2025, 2026], "from": 2028 },
   "signals": [
