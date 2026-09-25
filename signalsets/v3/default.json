@@ -8,17 +8,17 @@
   "signals": [
     {"id": "CRV_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 1000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2610"}, "freq": 1,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2026, "from": 2028 },
   "signals": [
     {"id": "CRV_GENERATOR", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
     {"id": "CRV_AC_CLUTCH", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2026, "from": 2028 },
   "signals": [
     {"id": "CRV_FUEL_AIR_RATIO", "path": "Fuel",   "fmt": {           "len": 8,  "max": 255,                             "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"},
     {"id": "CRV_AIRGAS_RATIO",   "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2612"}, "freq": 0.25,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2026, "from": 2028 },
   "signals": [
     {"id": "CRV_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
   ]},
@@ -31,16 +31,16 @@
     {"id": "CRV_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "CRV_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2661"}, "freq": 0.25,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2661"}, "freq": 0.25, "dbgfilter": { "to": 2026, "from": 2028 },
   "signals": [
     {"id": "CRV_FUELAIR_CAR", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "div": 2229.08163265, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2662"}, "freq": 0.25,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2662"}, "freq": 0.25, "dbgfilter": { "to": 2026, "from": 2028 },
   "signals": [
     {"id": "CRV_KNOCK_CONTROL", "path": "Engine", "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "unknown" }, "name": "Knock control",                "description": "ECU's determination of fuel quality."},
     {"id": "CRV_VTC_DUTY",      "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing control duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2026, "from": 2028 },
   "signals": [
     {"id": "CRV_MIS_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
     {"id": "CRV_MIS_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
