@@ -63,7 +63,7 @@ test_cases:
 - expected_values:
     CRV_BRK_FLD_P: 0
     CRV_BRK_PED_STK: 0
-    CRV_MSTR_CYL_STK: 6553.5
+    CRV_MSTR_CYL_STK: -0.1
     CRV_SLV_CYL_STK: 0
   response: |-
     18DAF12A103B6242010000FF
