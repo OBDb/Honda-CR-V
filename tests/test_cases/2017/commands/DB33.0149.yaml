@@ -6,27 +6,17 @@ test_cases:
     18DAF11003414931
     18DAF11E03414931
 - expected_values:
-    APP_D: 19.60784
-  response: |-
-    18DAF11003414931
-    18DAF11E03414932
-- expected_values:
-    APP_D: 19.60784
-  response: |-
-    18DAF11003414932
-    18DAF11E03414932
-- expected_values:
     APP_D: 26.27451
   response: |-
     18DAF1100341493F
     18DAF11E03414943
 - expected_values:
-    APP_D: 24.70588
+    APP_D: 30.19608
   response: |-
-    18DAF11003414940
-    18DAF11E0341493F
+    18DAF1100341494D
+    18DAF11E0341494D
 - expected_values:
-    APP_D: 25.4902
+    APP_D: 19.21569
   response: |-
-    18DAF11003414941
-    18DAF11E03414941
+    18DAF11E03414931
+    18DAF11003414931
