@@ -45,15 +45,15 @@ test_cases:
     18DAF11004414238C9555555
     18DAF11E044142384A555555
 - expected_values:
-    VPWR: 14.335
+    VPWR: 14.33
   response: |-
     18DAF11004414238FB
-    18DAF11E04414237FF
+    18DAF11E04414237FA
 - expected_values:
-    VPWR: 14.36
+    VPWR: 14.347
   response: |-
     18DAF1100441423914
-    18DAF11E0441423818
+    18DAF11E044142380B
 - expected_values:
     VPWR: 12.33
   response: |-
